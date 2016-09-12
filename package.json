@@ -9,15 +9,12 @@
     "lib": "lib"
   },
   "scripts": {
-    //build the lib
     "preinstall": "npm i -g coffee-script",
     "install": "",
     "postinstall": "",
-    //build the test
     "pretest": "",
     "test": "",
     "posttest": "",
-    //run the examples
     "prestart": "",
     "start": "",
     "poststart": ""
