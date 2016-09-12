@@ -4,13 +4,23 @@
   "description": "Popper.js angular wrapper",
   "main": "Gruntfile.js",
   "directories": {
-    "test": "test"
+    "test": "test",
+    "example": "example",
+    "lib": "lib"
   },
   "scripts": {
-    "test": "",
+    //build the lib
     "preinstall": "npm i -g coffee-script",
+    "install": "",
     "postinstall": "",
-    "install": ""
+    //build the test
+    "pretest": "",
+    "test": "",
+    "posttest": "",
+    //run the examples
+    "prestart": "",
+    "start": "",
+    "poststart": ""
   },
   "repository": {
     "type": "git",
@@ -28,7 +38,11 @@
     "node": ">=6.0.0",
     "npm": ">=3.4.0"
   },
-  "author": "Jacob Harasimo",
+  "author": {
+    "name": "Jacob Harasimo",
+    "email": "jacobharasimo@gmail.com",
+    "url": ""
+  },
   "license": "MIT",
   "bugs": {
     "url": "/issues"
