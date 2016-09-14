@@ -3,11 +3,6 @@
   "version": "0.0.0",
   "description": "Popper.js angular wrapper",
   "main": "Gruntfile.js",
-  "directories": {
-    "test": "test",
-    "example": "example",
-    "lib": "lib"
-  },
   "scripts": {
     "preinstall": "npm i -g coffee-script",
     "install": "",

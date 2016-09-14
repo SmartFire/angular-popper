@@ -1,0 +1,8 @@
+{
+  "name": "angular-popper",
+  "dependencies": {},
+  "globalDependencies": {
+    "angular": "registry:dt/angular#1.5.0+20160909133806",
+    "popper": "registry:dt/popper#0.4.0+20160514150334"
+  }
+}

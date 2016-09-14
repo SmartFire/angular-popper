@@ -37,3 +37,7 @@ angular.module('app')
             initialize();
         }
     ]);
+
+export class PopperCtrl {
+
+}

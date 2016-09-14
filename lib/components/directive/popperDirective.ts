@@ -1,19 +1,26 @@
-angular.module('app')
-    .directive('popperTrigger', [
-        function () {
-            return {
-                restrict: 'A',
-                replace: false,
-                bindToController: {
-                    popperTrigger: '=',
-                    popperOptions: '=',
-                    popperBeforeOpen: '&',
-                    popperAfterClose: '&'
+export class PopperTrigger {
+    /*if we need to inject dependencies into the directive class we do it the following way*/
+    static instance(): ng.IDirectiveFactory {
+        var directive = () => new PopperTrigger();
+        directive.$inject = [];
+        return directive;
+    }
 
-                },
-                scope: true,
-                controller: 'popperCtrl',
-                controllerAs: 'Popper'
-            }
-        }
-    ]);
+    restrict = 'A';
+    replace = false;
+    bindToController = {
+        popperTrigger: '=',
+        popperOptions: '=',
+        popperBeforeOpen: '&',
+        popperAfterClose: '&'
+    };
+    scope = true;
+    controller = 'popperCtrl';
+    controllerAs = 'Popper';
+
+}
+
+
+
+
+
