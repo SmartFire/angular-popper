@@ -2,9 +2,8 @@
   "name": "angular-popper",
   "version": "0.0.0",
   "description": "Popper.js angular wrapper",
-  "main": "Gruntfile.js",
+  "main": "dist/angular-popper.js",
   "scripts": {
-    "preinstall": "npm i -g coffee-script",
     "install": "",
     "postinstall": "",
     "pretest": "",

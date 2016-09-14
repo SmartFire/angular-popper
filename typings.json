@@ -3,6 +3,7 @@
   "dependencies": {},
   "globalDependencies": {
     "angular": "registry:dt/angular#1.5.0+20160909133806",
+    "node": "registry:dt/node#6.0.0+20160914131736",
     "popper": "registry:dt/popper#0.4.0+20160514150334"
   }
 }

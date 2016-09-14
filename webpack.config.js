@@ -7,7 +7,7 @@ var webpack = require('webpack'),
     path = require('path'),
     ExtractTextPlugin = require("extract-text-webpack-plugin"),
     APP = path.resolve('./src'),
-    DIST = path.resolve('./build'),
+    DIST = path.resolve('./dist'),
     autoprefixer = require('autoprefixer');
 
 console.info('>> node environment is', NODE_ENV);
